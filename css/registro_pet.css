@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    display: flex;
+    place-content: center;
+
+}
+
+.titulo img {
+    width: 8em;
+    height: 12em;
+}
+
+body {
+    width: 95%;
+    background-image: url("/imagenes/mascotas.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    margin: auto;
+    box-shadow: 0.6px 8px 8px 2px rgba(24, 23, 23, 0.9);
+    padding: 1em 1em 1em 2em;
+    background: rgba(0, 0, 0, 0.322);
+    border-radius: 1em;
+    display: grid;
+    gap: 1em;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.formulario input {
+    outline: none;
+}
+
+.formulario p {
+    font-size: 2em;
+    display: flex;
+    place-content: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    display: grid;
+    gap: 1.2em;
+
+}
+
+#barra {
+    width: 20em;
+    height: 3em;
+    border: none;
+    padding-left: 4em;
+    border-radius: 1em;
+    border-bottom: 0.1em solid black;
+}
+
+.ingreso_login {
+    display: grid;
+    padding-top: 2em;
+}
+
+.login {
+    background: rgba(73, 196, 218, 0.947);
+    border: none;
+    border-radius: 1em;
+    width: 20em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3em;
+    color: white;
+    cursor: pointer;
+}
+
+.login:focus,
+.login:hover {
+    background: rgb(35, 141, 177);
+}
+
+.messageRegister {
+    text-align: center;
+    padding: 4em;
+    background-color: aquamarine;
+    border-radius: 1em;
+}
+
+i {
+    position: absolute;
+    font-size: 2em;
+    padding: 0.1em;
+}
+
+.MessageRegister {
+    text-align: center;
+    padding: 0.2em 1.3em 0.2em 1.3em;
+    color: white;
+    background-color: rgb(240, 15, 15);
+    border-radius: 1em;
+    position: absolute;
+    margin: 24em 0em 0em 7em;
+}
+
+.R_perro {
+    display: none;
+}
+
+.table::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(10, 68, 175);
+    border-radius: 3px;
+}
+
+.table::-webkit-scrollbar-thumb {
+    background: rgb(0, 183, 255);
+    border-radius: 5px;
+}
+
+.table {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.tr {
+    display: flex;
+    background: rgb(67, 139, 0);
+    color: white;
+    overflow: auto;
+    gap: 2.4em;
+    padding: 0.5em;
+    padding-left: 1em;
+    /* margin-top: 3em; */
+
+    font-size: 0.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table_bloque {
+    display: flex;
+    justify-content: space-between;
+    background: gold;
+
+}
+
+.table_bloque input {
+    width: 8em;
+
+}
+
+.tabla {
+    display: flex;
+    place-items: center;
+}
+
+
+.id_input {
+    display: flex;
+    width: 3em;
+    place-content: center;
+}
+.tipo_input {
+    display: flex;
+    width: 9em;
+    place-content: center;
+}
+.name_input {
+    display: flex;
+    width: 6em;
+    place-content: center;
+}

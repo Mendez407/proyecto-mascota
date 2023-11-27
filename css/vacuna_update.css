@@ -1,0 +1,33 @@
+
+.modal{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #111111bd;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* .actualizar_bloque{
+    display: grid;
+    place-content: center;
+    gap: 1em;
+    place-items: center;
+} */
+.actualizar_bloque{
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+    max-height: 90%;
+    background: white;
+    border-radius: 1em;
+    padding: 1.5em 2.5em;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 1.5em;
+}

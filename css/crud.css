@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    background-image: url("/imagenes/vacuna.jpg");
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+section .body{
+    position: fixed;
+}
+.body{
+    width: 30%;
+    height: 100vh;
+    background: rgb(33, 97, 161);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo{
+    width: 8em;
+    height: 12em;
+}
+.formulario{
+    display: grid;
+    place-items: center;
+    padding: 3em;
+}
+.formulario_bloque{
+    display: grid;
+    gap: 1em;
+    place-items: center;
+}
+.formulario input{
+    outline: none;
+    border: none;
+    padding-left: 1em;
+    border-radius: 0.5em;
+    height: 2.5em;
+    width: 20em;
+    
+}
+.table {
+    overflow: auto;
+    
+}
+.table::-webkit-scrollbar{
+    width: 8px;
+    background: rgb(10, 68, 175);
+    border-radius: 3px;
+}
+.table::-webkit-scrollbar-thumb{
+    background: rgb(0, 183, 255);
+    border-radius: 5px;
+}
+button{
+    color: rgb(28, 121, 184);
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.table{
+    padding: 0em 0.7em 0.7em 0.7em;
+    display: grid;
+    text-align: center;
+    
+}
+.tab{
+    display: flex;
+    background: rgb(2, 0, 139);
+    color: white;
+}
+.tr{
+    display: flex;
+    gap: 3em;
+    padding: 0.5em;
+}
+.boton_salir{
+    padding: 1em;
+    font-size: 2em;
+}

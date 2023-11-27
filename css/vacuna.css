@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.tabla{
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid black;
+    display: grid;
+}
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
+.tabla_bloque{
+    display: flex;
+}

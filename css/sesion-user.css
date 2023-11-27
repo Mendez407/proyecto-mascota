@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/imagenes/foto-presentacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background: rgb(2, 33, 57);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.header{
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 8em;
+    padding-top: 2.2em;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Lilita One', sans-serif;
+}
+i{
+    font-size: 2em;
+
+}
+.contenedor_menu{
+    width: 20%;
+    display: none;
+    height: 100vh;
+    display: none;
+    background: slateblue;
+    text-align: right;
+    padding: 2.7em 1em 0em 0em;
+    
+}
+.menu_list{
+    gap: 1.2em;
+    color: white;
+    display: grid;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.info{
+    position: absolute;
+}
+.info_parrafo{
+    width: 30vw;
+    height: 40vh;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    position: relative;
+    background: rgb(104, 103, 103,0.8);
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/imagenes/f.jpg");
+    display: flex;
+    background-size: cover;
+
+}
+.titulo{
+    display: grid;
+    gap: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.formulario{
+    margin: auto;
+    box-shadow: 0.6px 0.4px 9px 5px rgba(0, 0, 0, 0.6);
+    padding: 3em 3em 2em 3em;
+    border-radius: 1em;
+    display: grid;
+    gap: 2em;
+    margin-top: 3em;
+}
+.formulario input{
+    outline: none;
+}
+.formulario p{
+    font-size: 2em;
+    display: flex;
+    place-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    display: grid;
+    gap: 1em;
+    
+}
+#barra,#barra2{
+    height: 2.6em;
+    border: none; 
+    padding-left: 4em;
+    border-radius: 1em;
+    background: rgba(248, 248, 248, 0.041);
+}
+#barra2{
+    width: 25.5em;
+}
+
+.login{
+    background: rgba(5, 101, 153, 0.947);
+    border: none;
+    border-radius: 1em;
+    width: 25.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 3em;
+    color: white;
+    cursor: pointer;
+}
+.login:focus,
+.login:hover{
+    background: rgb(39, 174, 219);
+}
+.messageRegister{
+    text-align:center; 
+    padding:.4em; 
+    background-color:aquamarine;
+    border-radius: 1em;
+}
+i{
+    position: absolute;
+    font-size: 1.8em;
+    padding: 0.2em;
+}
+.MessageRegister{
+    text-align:center; 
+    padding: 0.2em 1.3em 0.2em 1.3em; 
+    color: white;
+    background-color:rgb(240, 15, 15);
+    border-radius: 1em;
+    position: absolute;
+    margin: 24em 0em 0em 7em;
+}
+.iconos{
+    display: flex;
+    gap: 5em;
+    padding-top: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.icon{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    
+}
+.icon input{
+    width: 1.5em;
+    height: 1.5em;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
